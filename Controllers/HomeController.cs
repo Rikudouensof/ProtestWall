@@ -23,7 +23,22 @@ namespace ProtestWall.Controllers
       return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult History()
+    {
+      return View();
+    }
+
+    public IActionResult Videos()
+    {
+      return View();
+    }
+
+    public IActionResult Audio()
+    {
+      return View();
+    }
+
+    public IActionResult News()
     {
       return View();
     }

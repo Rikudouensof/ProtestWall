@@ -11,6 +11,8 @@ namespace ProtestWall.Models
     [Key]
     public int Id { get; set; }
 
+
+    [Display(Name = "Name of File Type")]
     public string Name { get; set; }
 
 

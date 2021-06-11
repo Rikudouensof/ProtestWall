@@ -13,5 +13,17 @@ namespace ProtestWall.Data
         : base(options)
     {
     }
+
+    public DbSet<Comment> Comments { get; set; }
+
+    public DbSet<File> Files { get; set; }
+
+    public DbSet<FileType> FileTypes { get; set; }
+
+    public DbSet<Category> Categories { get; set; }
+
+    public DbSet<History> Histories { get; set; }
+
+
   }
 }
